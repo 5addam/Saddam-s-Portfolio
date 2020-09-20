@@ -24,7 +24,7 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto text-right mr-2">
           <a class="nav-link" href="#welcome-container">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#skills">Skills</a>
           <a class="nav-link" href="#">Projects</a>
           <a class="nav-link" href="#">Contact</a>
         </div>
@@ -32,10 +32,12 @@
     </nav>
   </header>
   <main>
-    <section id="welcome-container">
+
+    <!----------------WELCOME-SECTION---------------------------->
+    <section class="bg-setting" id="welcome-container">
       <div id="welcome-section">
         <div class=" text-center" id="welcome-title">
-          Hi, I'm Saddam Mughal
+          Hi! I'm Saddam Mughal
         </div>
         <div class=" text-center text-monospace" id="welcome-subtitle">
           < Software Developer | CyberSec Enthusiastic />
@@ -56,24 +58,104 @@
         </div>
       </div>
     </section>
-    <section id="skills">
 
+    <!----------------SKILLS-SECTION---------------------------->
+
+    <section class="skills bg-setting" id="skills">
+      <div id="skills-container">
+        <h2 class=" text-center mb-4 text-monospace">Proficient Skills</h2>
+        <div class="row flex-row justify-content-center align-items-center">
+          <div class=" col-2 text-center mt-2">
+            Front-End
+          </div>
+          <div class=" col-10" id="skill-items">
+            <img id="skill-logo" src="images/html-5.png" alt="html5 logo" />
+            <img id="skill-logo" src="images/css.png" alt="css logo" />
+            <img id="skill-logo" src="images/js.png" />
+            <img id="skill-logo" src="images/bootstrap.png" />
+          </div>
+        </div>
+        <div class="row flex-row justify-content-center align-items-center">
+          <div class=" col-2 text-center mt-2">
+            Back-End
+          </div>
+          <div class=" col-10" id="skill-items">
+            <img id="skill-logo" src="images/java.png" />
+            <img id="skill-logo" src="images/python.png" />
+            <img id="skill-logo" src="images/nodejs.png" />
+            <img id="skill-logo" src="images/c-sharp.png" />
+          </div>
+        </div>
+        <div class="row flex-row justify-content-center align-items-center">
+          <div class=" col-2 text-center mt-2">
+            Databases
+          </div>
+          <div class=" col-10" id="skill-items">
+            <img id="skill-logo" src="images/mysql.png" />
+            <img id="skill-logo" src="images/mongo.png" />
+          </div>
+        </div>
+        <div class="row flex-row justify-content-center align-items-center">
+          <div class=" col-2 text-center mt-2">
+            Frameworks
+          </div>
+          <div class=" col-10" id="skill-items">
+            <img id="skill-logo" src="images/angular.png" />
+            <img id="skill-logo" src="images/django.png" />
+          </div>
+        </div>
+        <div class="row flex-row justify-content-center align-items-center">
+          <div class=" col-2 text-center mt-2">
+            Version Control
+          </div>
+          <div class=" col-10" id="skill-items">
+            <img id="skill-logo" src="images/git.png" />
+            <img id="skill-logo" src="images/github.png" />
+            <img id="skill-logo" src="images/svn.png" />
+          </div>
+        </div>
+        <div class="row flex-row justify-content-center align-items-center">
+          <div class=" col-2 text-center mt-2">
+            Systems
+          </div>
+          <div class=" col-10" id="skill-items">
+            <img id="skill-logo" src="images/windows.png" />
+            <img id="skill-logo" src="images/linux.png" />
+          </div>
+        </div>
+      </div>
     </section>
-    <section id="projects">
+
+    <!------------------------PROJECTS--------------------------------------------->
+
+    <section class="bg-setting" id="projects">
+      <div id="project-container">
+        <h2>Under Construction......</h2>
+      </div>
 
     </section>
   </main>
 
   <footer id="footer" class="p-2">
-    <div>
-      <a class=" text-info" href="https://github.com/5addam" target="_blank"><i class="fa fa-cloud-download"></i>
-        Resume</a>
+    <div id="footer-left">
+      <a class=" text-info ml-1" href="https://github.com/5addam" target="_blank">
+        <i class="fa fa-cloud-download"></i>Resume
+      </a>
     </div>
-    <div>
-      <a class=" text-info" href="#" target="_blank"><i class="fa fa-google"></i></a>
-      <a class=" text-info" href="#" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-      <a class=" text-info" href="#" target="_blank"><i class="fa fa-github-square"></i></a>
-      <a class=" text-info" href="https://freecodecamp.org" target="_blank"><i class="fa fa-free-code-camp"></i></a>
+    <div id="footer-right">
+      <a class=" text-info footer-link" href="mailto:saddam.mughal60@gmail.com" target="_blank"
+        rel="noopener noreferrer">
+        <i class="fa fa-envelope"></i>
+      </a>
+      <a class=" text-info footer-link" href="http://linkedin.com/in/5addam" target="_blank">
+        <i class="fa fa-linkedin-square"></i>
+      </a>
+      <a class=" text-info footer-link" href="http://github.com/5addam" target="_blank">
+        <i class="fa fa-github-square"></i>
+      </a>
+      <a class=" text-info footer-link" href="https://freecodecamp.org" target="_blank">
+        <i class="fa fa-free-code-camp"></i>
+      </a>
     </div>
   </footer>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
