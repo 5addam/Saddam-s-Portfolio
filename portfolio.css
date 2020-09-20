@@ -35,7 +35,7 @@ main{
 }
 #welcome-container{
     height: 100vh;
-    background-image: url(background.jpg);
+    background-image: url(images/background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
