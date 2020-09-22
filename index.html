@@ -13,7 +13,7 @@
 
 <body>
   <header>
-    <nav id="nav" class="navbar navbar-expand-lg navbar-expand-md navbar-dark navbar-static-top">
+    <nav id="nav" class="navbar navbar-expand-lg navbar-expand-md navbar-dark fixed-top">
       <a class="navbar-brand" href="#">
         <img id="logo-img" src="images/logo.png" alt="brand-logo" />
       </a>
@@ -61,10 +61,13 @@
 
     <!----------------SKILLS-SECTION---------------------------->
 
+    <!-----------------Development Skills-------------------------->
+
     <section class="skills" id="skills">
-      <div id="skills-container">
-        <h2 class=" text-center mb-4 text-monospace mt-4">Proficient Skills</h2>
-        <div class="roww">
+      <div class="skills-container">
+        <h2 class=" text-center mb-4 text-monospace mt-4">Development Skills</h2>
+        <hr>
+        <div class="row">
           <div class="skill-title">
             Front-End
           </div>
@@ -73,9 +76,10 @@
             <img id="skill-logo" src="images/css.png" alt="css logo" />
             <img id="skill-logo" src="images/js.png" />
             <img id="skill-logo" src="images/bootstrap.png" />
+            <img id="skill-logo" src="images/xml.png"/>
           </div>
         </div>
-        <div class="roww">
+        <div class="row">
           <div class="skill-title">
             Back-End
           </div>
@@ -86,7 +90,7 @@
             <img id="skill-logo" src="images/c-sharp.png" />
           </div>
         </div>
-        <div class="roww">
+        <div class="row">
           <div class="skill-title">
             Databases
           </div>
@@ -95,7 +99,7 @@
             <img id="skill-logo" src="images/mongo.png" />
           </div>
         </div>
-        <div class="roww">
+        <div class="row">
           <div class="skill-title">
             Frameworks
           </div>
@@ -104,7 +108,7 @@
             <img id="skill-logo" src="images/django.png" />
           </div>
         </div>
-        <div class="roww">
+        <div class="row">
           <div class="skill-title">
             Version Control
           </div>
@@ -114,16 +118,77 @@
             <img id="skill-logo" src="images/svn.png" />
           </div>
         </div>
-        <div class="roww">
-          <div class="skill-title">
-            Systems
+        <div class="row">
+          <div class="skill-title">Tools</div>
+          <div id="skill-items">
+            <img id="skill-logo" src="images/visual-studio.png" />
+            <img id="skill-logo" src="images/pycharm.png"/>
+            <img id="skill-logo" src = "images/dreamweaver.png"/>
+            <img id="skill-logo" src="images/android-studio.png"/>
+            <img id="skill-logo" src="images/postman.png"/>
           </div>
+        </div>
+
+      </div>
+
+      <!--------------------CyberSec skills-------------------------->
+      <div class="skills-container">
+        <h2 class=" text-center mb-4 text-monospace mt-4">CyberSec Skills</h2>
+        <hr>
+        <div class="row">
+          <h4>Networks</h4>
+          <div class=" ml-4 mt-1">
+            Strong Knowledge of: 
+            <ul class="mt-2 ml-3">
+              <li>OSI Layer</li>
+              <li>IP Networking</li>
+              <li>Protocols</li>
+              <li>Ports</li>
+              <li>Router & Switches</li>
+              <li>Active Directory</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <h4 class="ml-2">Pentesting</h4>
+          <div class=" ml-4 mt-1">
+            Hands-On practice with: 
+            <ul class="mt-2 ml-3">
+              <li>Network Vulnerability Scan</li>
+              <li>Password Hash Cracking</li>
+              <li>Real-time network traffic analysis</li>
+              <li>Privilege escalation</li>
+              <li>OWASP Top 10</li>
+              <li>Basic Scripting</li>
+              <li>Analyze/modify exploit code</li>
+              <li>Port & Web Scanning</li>
+              <li>Active Directory Exploitation</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="skill-title">Tools</div>
+          <div id="skill-items">
+            <img id="skill-logo" src="images/BurpSuite.png" alt="Burp suite logo" />
+            <img id="skill-logo" src="images/metasploit.png" alt="metasploit" />
+            <img id="skill-logo" src="images/wiresharklogo.png"/>
+            <img id="skill-logo" src="images/john.png" />
+            <img id="skill-logo" src="images/nikto.png"/>
+            <img id="skill-logo" src="images/nmap.png"/>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="skill-title">Systems</div>
           <div id="skill-items">
             <img id="skill-logo" src="images/windows.png" />
             <img id="skill-logo" src="images/linux.png" />
           </div>
+
         </div>
       </div>
+
     </section>
 
     <!------------------------PROJECTS--------------------------------------------->
@@ -135,8 +200,8 @@
           The Blind's Eye
         </div>
         <div class=" card-footer">
-          <a class="btn" id="card-btn" href="#">live</a>
-          <a class="btn" id="card-btn" href="#">code</a>
+          <a class="btn disabled" id="card-btn" href="#">live</a>
+          <a class="btn disabled" id="card-btn" href="#">code</a>
         </div>
       </div>
       <div class="card" id="project-item">
@@ -145,8 +210,8 @@
           GQ Managment System
         </div>
         <div class=" card-footer">
-          <a class="btn" id="card-btn" href="#">live</a>
-          <a class="btn" id="card-btn" href="#">code</a>
+          <a class="btn disabled" id="card-btn" href="#">live</a>
+          <a class="btn disabled" id="card-btn" href="#">code</a>
         </div>
       </div>
       <div class="card" id="project-item">
@@ -155,8 +220,8 @@
           Reddit Image Downloader
         </div>
         <div class=" card-footer">
-          <a class="btn" id="card-btn" href="#">live</a>
-          <a class="btn" id="card-btn" href="#">code</a>
+          <a class="btn disabled" id="card-btn" href="#">live</a>
+          <a class="btn" id="card-btn" href="https://github.com/5addam/redditImageDownloader">code</a>
         </div>
       </div>
       <div class="card" id="project-item">
@@ -165,8 +230,8 @@
           Tic Tac Toe
         </div>
         <div class=" card-footer">
-          <a class="btn" id="card-btn" href="#">live</a>
-          <a class="btn" id="card-btn" href="#">code</a>
+          <a class="btn" id="card-btn" href="https://5addam.github.io/tic-tac-toe/">live</a>
+          <a class="btn" id="card-btn" href="https://github.com/5addam/tic-tac-toe">code</a>
         </div>
       </div>
     </section>
@@ -204,7 +269,8 @@
     </section>
   </main>
 
-  <footer id="footer" class="p-2">
+  <footer id="footer">
+    <p>&#169 Saddam Mughal</p>
   </footer>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
