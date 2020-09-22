@@ -419,6 +419,7 @@ hr{
 
     #skill-items{
         justify-content: center;
+        margin-left: 0;
     }
 
     #main-skill-icon{
