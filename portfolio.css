@@ -16,9 +16,7 @@
     justify-content: center;
     align-items: center;
 }
-.container{
-    
-}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -170,14 +168,14 @@ nav{
 .skills-container{
     /* max-width: 100%; */
     height: auto;
-    max-width: 850px;
+    /* max-width: 850px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: var(--primary-color-fade);
     border-radius: 20px;
     padding: 1rem;
-    margin: 20px auto 20px auto;
+    margin: 20px 20px 20px 20px;
     color: var(--white-color);
     box-shadow: 5px 5px 10px 5px var(--primary-color);
 }
@@ -187,7 +185,7 @@ nav{
     margin-bottom: 20px;
     width: fit-content;
     padding: 0.3rem;
-    /* background-color: aqua; */
+    background-color: aqua;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -195,7 +193,7 @@ nav{
 #skill-items{
     display: flex;
     /* grid-template-columns: repeat(auto-fill, minmax(10vw, 1fr)); */
-    /* background-color: yellow; */
+    background-color: yellow;
     justify-content: left;
     flex: 1;
     flex-wrap: wrap;
@@ -212,7 +210,7 @@ nav{
     background-color: var(--white-color-fade);
     border-radius: 10px;
     padding: 0.15rem;
-    /* background-color: red; */
+    background-color: red;
     /* justify-self: end; */
     margin: 5px 10px 5px 10px;
     /* padding: .0rem; */
@@ -222,7 +220,7 @@ nav{
     margin: 15px 0px 0px 10px;
     width: 100px;
     height: 50px;
-    /* background-color: violet; */
+    background-color: violet;
     align-self: center;
     font-size: large;
     font-weight: bolder;
@@ -315,6 +313,7 @@ nav{
 
 #contact-title{
     color: var(--white-color);
+    text-align: center;
 }
 .contact-item{
     position: relative;
@@ -351,19 +350,49 @@ hr{
     background-color: var(--white-color);
 }
 
-@media only screen and (max-width: 768px) {
-    #welcome-contiainer{
-        height: 40vh;
+/* mobile landscape */
+@media only screen and (max-width: 850px){
+    #welcome-container{
+        height: auto;
+        width: 100%;
     }
-    skill-logo{
-        /* display: block; */
-        /* position: relative; */
-        width: 30px;
-        height: 30px;
-        /* margin: auto; */
+    #welcome-section{
+        margin-top: 65px;
+        margin-bottom: 65px;
+        height: auto;
+    }
+}
+
+ /* mobile potrait */
+@media only screen and (max-width: 680px) {
+    .skills-container{
+        align-items: center;
     }
     .row{
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
+        width: 100%;
+    }
+
+    #welcome-contiainer{
+        height: 100%;
+    }
+    #welcome-section{
+        margin-top: 65px;
+        /* height: 100%; */
+    }
+    #skill-logo{
+        /* display: block; */
+        /* position: relative; */
+        /* width: 30px;
+        height: 30px; */
+        /* margin: auto; */
+    }
+    .skill-title{
+        text-align: center;
+        margin: 15px 0px 0px 0px;
+        width: 100%;
     }
 
     #skill-items{
