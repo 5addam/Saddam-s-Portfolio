@@ -23,19 +23,18 @@
     padding: 0;
 }
 
-html{
-    height: 100%;
-}
 body{
     display: flex;
-    width: 100%;
+    background-color: crimson;
+    /* width: 100%; */
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 header{
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 
@@ -188,7 +187,6 @@ nav{
     /* background-color: aqua; */
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 #skill-items{
     display: flex;
@@ -232,6 +230,14 @@ nav{
     transform: scale(1.1);
 }
 
+.cyber-skill-points{
+    margin-top: 5px;
+    margin-left: 15px;
+    /* background-color: rebeccapurple; */
+}
+.row h4{
+    text-decoration: underline;
+}
 #projects{
     background-image: url(images/background3.jpg);
     display: grid;
@@ -350,6 +356,22 @@ hr{
     background-color: var(--white-color);
 }
 
+@media (device-height : 568px) 
+   and (device-width : 320px) 
+   and (-webkit-min-device-pixel-ratio: 2){
+    #welcome-container{
+        height: auto;
+        width: 100%;
+    }
+    #welcome-section{
+        margin-top: 65px;
+        margin-bottom: 65px;
+        height: auto;
+    }
+
+   }
+
+
 /* mobile landscape */
 @media only screen and (max-width: 850px){
     #welcome-container{
@@ -412,6 +434,13 @@ hr{
         margin-top: 0.2rem;
         border: 2px dotted rgba(0, 128, 128, 0);
         /* border: 0px dotted teal; */
+    }
+
+    .cyber-skill-points{
+        margin-top: 5px;
+        margin-left: 1rem;
+        background-color: rebeccapurple;
+        align-self: flex-start;
     }
 
   }
