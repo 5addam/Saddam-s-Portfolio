@@ -233,8 +233,8 @@ nav{
 .cyber-skill-points{
     margin-top: 5px;
     margin-left: 15px;
-    /* background-color: rebeccapurple; */
 }
+
 .row h4{
     text-decoration: underline;
 }
@@ -248,7 +248,7 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 3rem 0 3rem 0;
+    padding: 3rem 2rem 3rem 2rem;
 }
 
 #project-item{
@@ -402,14 +402,22 @@ hr{
     }
     #welcome-section{
         margin-top: 65px;
+        width: 85%;
         /* height: 100%; */
     }
-    #skill-logo{
-        /* display: block; */
-        /* position: relative; */
-        /* width: 30px;
-        height: 30px; */
-        /* margin: auto; */
+    #welcome-title{
+        font-size: 25px;
+    }
+    #welcome-subtitle{
+        font-size: smaller;
+    }
+    #main-skill-text{
+        font-size: x-small;
+    }
+
+    .skills-container h2{
+        font-size: 25px;
+        font-weight: bold;
     }
     .skill-title{
         text-align: center;
@@ -434,13 +442,11 @@ hr{
         padding: 0.2rem;
         margin-top: 0.2rem;
         border: 2px dotted rgba(0, 128, 128, 0);
-        /* border: 0px dotted teal; */
     }
 
     .cyber-skill-points{
-        margin-top: 5px;
+        margin-top: 1rem;
         margin-left: 1rem;
-        background-color: rebeccapurple;
         align-self: flex-start;
     }
 
